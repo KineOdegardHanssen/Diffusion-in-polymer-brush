@@ -1,0 +1,8 @@
+startindex_R: 850
+endindex_R: 1150
+startindex_ort: 850
+endindex_ort: 1112
+startindex_par: 900
+endindex_par: 1050
+
+# d = 4
