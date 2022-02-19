@@ -25,8 +25,8 @@ T  = 310               #   K
 constant = F**2/(R*T)
 
 # Radius of neuron:
-r1 = 6e-6 # m
-r2 = 8e-6 # m
+r1 = 3e-6 # m
+r2 = 7e-6 # m
 r3 = 11e-6 # m
 # For plotting:
 r1_um = r1*1e6
@@ -114,7 +114,6 @@ for i in range(N):
     R3[i] = rho_to_R(rho[i],h,r3)
     R3_rms[i] = R3[i]/rho[i]*rho_rms[i]
 
-### Twoinone
 plt.rc('xtick',labelsize=12)
 plt.rc('ytick',labelsize=12)
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(7,6),dpi=300)
